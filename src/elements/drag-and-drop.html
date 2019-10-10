@@ -1,0 +1,13 @@
+<template>
+  <require from="./drag-and-drop.css"></require>
+  <div id="chart-body">
+    <ul id="tree">
+  
+    </ul>
+    <div class="add-form">
+      <input type="text" value.bind="formName" placeholder="Name">
+      <input type="text" value.bind="formParent" placeholder="Parent">
+      <button click.delegate="addDepartment()">Add department</button>
+    </div>
+  </div>
+</template>
